@@ -53,7 +53,7 @@
   text-align: center;
   top: 75%;
   left: 28%;
-  position: absolute;
+  position: relative;
   width: 100%;
   margin: 1em;
 }
