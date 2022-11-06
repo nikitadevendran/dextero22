@@ -124,7 +124,7 @@ nav .fa{
   margin-bottom: 10px;
 margin-right: 35%;
  text-align: center;
-  font-size: 28px;
+  font-size: 20px;
     border-color: indianred;
   transition: 0.5s;
 }
@@ -146,7 +146,7 @@ margin-right: 35%;
   margin-bottom: 10px;
 margin-right: 35%;
  text-align: center;
-  font-size: 28px;
+  font-size: 20px;
     border-color: indianred;
   transition: 0.5s;
 }
@@ -169,7 +169,7 @@ width:90%;
 }
 .panel p{
      color: white;
-     font-size:20px;
+     font-size:15px;
 }
 .se{
   background-color: darkseagreen;
@@ -350,7 +350,7 @@ color:goldenrod;
     padding-bottom: 4px;
 }
 .technical h2{
-     font-size:35px;
+     font-size:25px;
     text-align: center;
     margin-top: 0px;
     color: goldenrod;
