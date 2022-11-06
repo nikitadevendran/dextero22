@@ -568,5 +568,62 @@ margin-right: 35%;
   width: 40%;
   margin: 1em;
 }
- 
+ .nontech{
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-left: 3px;
+     padding-right: 3px;
+  padding-top:5px;
+  margin-left: 35%;
+  margin-top: 10px;
+ width: 30%;
+  margin-bottom: 10px;
+margin-right: 35%;
+ text-align: center;
+  font-size: 15px;
+    border-color: indianred;
+  transition: 0.5s;
+}
+.tech{
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-left: 3px;
+     padding-right: 3px;
+  padding-top:5px;
+  margin-left: 35%;
+  margin-top: 10px;
+ width: 30%;
+  margin-bottom: 10px;
+margin-right: 35%;
+ text-align: center;
+  font-size: 15px;
+    border-color: indianred;
+  transition: 0.5s;
+}
+	.technical h2{
+     font-size:19px;
+    text-align: center;
+    margin-top: 0px;
+    color: goldenrod;
+}
+	.pp{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+	
 }
