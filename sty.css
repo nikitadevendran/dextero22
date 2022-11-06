@@ -8,7 +8,7 @@
 
 nav{
      display:flex;
-     padding: 4% 4%;
+     padding: 2% 2%;
      justify-content:space-between;
      align-items:center;
 }
@@ -625,5 +625,98 @@ margin-right: 35%;
   display: inline-block;
   text-decoration: none;
 }
+	.sk{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+	.se{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+	.mr{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+	.bw{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+	.ts{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.tp{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.panel{
+  padding: 5px 6px;
+  display: none;
+width:90%;
+    margin-left:5%;
+      text-align: center;
+  margin-right: 5%;
+    border-radius: 10px;
+	font-size:10px;
+  background-color: palevioletred;
+  overflow: hidden;
+    color: white;
+  box-shadow: 0 0 30px 0px gold; 
+}	
+	
 	
 }
