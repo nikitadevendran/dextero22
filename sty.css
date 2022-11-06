@@ -1,0 +1,572 @@
+*{
+     margin:0;
+     padding:0;
+     font-family: 'Playfair Display', serif;
+     box-sizing: border-box;
+     overflow-x: hidden;
+}
+
+nav{
+     display:flex;
+     padding: 4% 4%;
+     justify-content:space-between;
+     align-items:center;
+}
+.nav-links{
+     flex:1;
+    text-align:right;
+}
+.nav p{
+ text-align:left;
+ display:inline-block;
+ color: aquamarine;
+ font-size: 22px;
+}
+.nav-links ul li{
+     text-align:right;
+     list-style:none;
+     display:inline-block;
+     padding:8px 12px;
+     position:relative;
+}
+.nav-links ul li a{
+  border: none;
+  color: red;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  
+  display: inline-block;
+  font-size: 22px;
+}
+.nav-links ul li a:hover{
+     background: #d64161;
+     display:block;
+    border-radius: 8px;
+    color:antiquewhite;
+    
+     margin:auto;
+    box-shadow: 0 0 30px 0px gold;
+}}
+.text-box{
+    
+     width:40%;
+     color:white;
+     position:absolute;
+     top:20%;
+     left:30%;
+     text-align:center;
+}
+.text-box h2{
+     color: khaki;
+     text-align: center;
+     font-size:40px;
+}
+.text-box h5{
+    
+     font-size:28px;
+     color:khaki;
+     text-align:center;
+}
+.text-box h3{
+     color:khaki;
+     text-align: center;
+     font-size:30px;
+     padding-bottom:2px;
+}
+.text-box h1{
+     padding-left: 37px;
+     font-size:60px;
+     color: gold;
+     text-align: center;
+}
+.text-box p{
+    
+     font-size:25px;
+     color:khaki;
+     text-align:center;
+}
+.text-box h4{
+     font-size:25px;
+     color:khaki;
+     text-align:center;
+}
+
+nav .fa{
+      display:none;
+}
+.eve{
+    
+    margin:auto;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom:20px;
+}
+.eve h1{
+    font-size:66px;
+    font-weight: 600px;
+    color:gold;
+    width: 100%;   
+}
+
+.tech{
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-left: 3px;
+     padding-right: 3px;
+  padding-top:10px;
+  margin-left: 35%;
+  margin-top: 10px;
+ width: 30%;
+  margin-bottom: 10px;
+margin-right: 35%;
+ text-align: center;
+  font-size: 28px;
+    border-color: indianred;
+  transition: 0.5s;
+}
+.tech:hover,.tech:active {
+  box-shadow: 0 0 30px 0px gold; 
+}
+.nontech{
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-left: 3px;
+     padding-right: 3px;
+  padding-top:10px;
+  margin-left: 35%;
+  margin-top: 10px;
+ width: 30%;
+  margin-bottom: 10px;
+margin-right: 35%;
+ text-align: center;
+  font-size: 28px;
+    border-color: indianred;
+  transition: 0.5s;
+}
+.nontech:hover,.tech:active {
+  box-shadow: 0 0 30px 0px gold; 
+}
+
+.panel{
+  padding: 10px 18px;
+  display: none;
+width:90%;
+    margin-left:5%;
+      text-align: center;
+  margin-right: 5%;
+    border-radius: 10px;
+  background-color: palevioletred;
+  overflow: hidden;
+    color: white;
+  box-shadow: 0 0 30px 0px gold; 
+}
+.panel p{
+     color: white;
+     font-size:20px;
+}
+.se{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.se:hover, .se:active{
+  background-color: darkgreen;
+color:goldenrod;
+}
+.ts{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.ts:hover, .ts:active{
+  background-color: darkgreen;
+color:goldenrod;
+}
+.pp{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.pp:hover, .pp:active{
+  background-color: darkgreen;
+color:goldenrod;
+}
+.tp{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.tp:hover, .tp:active{
+  background-color: darkgreen;
+color:goldenrod;
+}
+.sk{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.sk:hover, .sk:active{
+ background-color: darkgreen;
+color:goldenrod;
+}
+.bw{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.bw:hover, .bw:active{
+ background-color: darkgreen;
+color:goldenrod;
+}
+.mr{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.mr:hover, .mr:active{
+ background-color: darkgreen;
+color:goldenrod;
+}
+.location iframe{
+    width:1200px;
+    padding: 50px 50px;
+    padding-left: 250px;
+}
+.location h3{
+    margin-top: 10px;
+    font-size:36px;
+    font-weight: 300px;
+    text-align: center;
+    color:gold;
+}
+.location p{
+    color:pink;
+    font-size:20px;
+     padding-left: 100px;
+    
+}
+.button1:link, .button1:visited {
+  background-color:darkred;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.button1:hover, .button1:active{
+  background-color: darkblue;
+     
+  box-shadow: 0 0 30px 0px gold;
+}
+.button2:link, .button2:visited {
+  background-color:darkred;
+  color: white;
+  padding: 15px 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+	display: block;
+  max-width: 300px;
+  margin: auto;
+  
+}
+
+.button2:hover, .button2:active{
+  background-color: darkblue;
+     box-shadow: 0 0 30px 0px gold;
+}        
+.rules p{
+    padding-left: 100px;
+    color: pink;
+     width: 100%;
+    float: left;
+    font-size:22px;
+    padding-bottom: 4px;
+}
+.technical h2{
+     font-size:35px;
+    text-align: center;
+    margin-top: 0px;
+    color: goldenrod;
+}
+.rules h3{
+    margin:40px 30px;
+     font-size:34px;
+     text-decoration: underline;
+     color:navajowhite;
+     text-align:center;
+}
+.nontechnical h2{
+     font-size:35px;
+    text-align: center;
+    margin-top: 0px;
+    color: goldenrod;
+}
+
+@media screen and (max-width: 760px) {
+    .text-box h2{
+     text-align:center;
+     font-size:20px;
+     padding-top: 5px;
+}
+.text-box h5{
+    
+     font-size:16px;
+     color:khaki;
+     text-align:center;
+}
+.text-box h3{
+     color:khaki;
+     padding-top: 5px;
+     text-align: center;
+     font-size:20px;
+     padding-bottom:2px;
+}
+.text-box h1{
+     padding-left: 15px;
+     font-size:43px;
+     color: gold;
+     text-align: center;
+}
+.text-box p{
+    
+     font-size:15px;
+     color:khaki;
+     text-align:center;
+}
+.text-box h4{
+       padding-top: 5px;
+     font-size:15px;
+     color:khaki;
+     text-align:center;
+}
+.nav-links ul li{
+     text-align:right;
+     list-style:none;
+     display:inline-block;
+     padding:4px 4px;
+     position:relative;
+}
+.nav-links ul li a{
+  border: none;
+  color: red;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.button1:link, .button1:visited {
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 8px;
+}
+.rules p{
+    padding-left: 20px;
+    color: pink;
+     width: 100%;
+    float: left;
+    font-size:15px;
+    
+}    
+.rules h3{
+    padding-bottom: 3px;
+     font-size:22px; 
+     text-decoration: underline;
+    color:pink;
+     text-align:center;
+}
+.eve h1{
+    font-size:40px;
+    font-weight: 100px;
+    color:gold;
+    width: 100%;   
+}
+.techeve:link, .techeve:visited {
+  background-color:darkred;
+  color: white;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 13px;
+}
+.nontecheve:link, .nontecheve:visited {
+  background-color:darkred;
+  color: white;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 13px;
+}
+.tech{
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-left: 3px;
+     padding-right: 3px;
+  padding-top:10px;
+  margin-left: 25%;
+  margin-top: 10px;
+ width: 50%;
+  margin-bottom: 10px;
+margin-right: 35%;
+ text-align: center;
+  font-size: 28px;
+    border-color: indianred;
+  transition: 0.5s;
+}
+.nontech{
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-left: 3px;
+     padding-right: 3px;
+  padding-top:10px;
+  margin-left: 25%;
+  margin-top: 10px;
+ width: 50%;
+  margin-bottom: 10px;
+margin-right: 35%;
+ text-align: center;
+  font-size: 28px;
+    border-color: indianred;
+  transition: 0.5s;
+}   
+.location p{
+    color:pink;
+    font-size:12px;
+     padding-left: 50px;
+    
+} 
+    .location h3{
+    margin-top: 5px;
+    font-size:26px;
+    font-weight: 300px;
+    text-align: center;
+    color:gold;
+}
+    .location iframe{
+    width:350px;
+    padding: 25px 25px;
+    
+}
+    .button2:link, .button2:visited {
+  background-color:darkred;
+  color: white;
+  padding: 8px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+	display: block;
+  max-width: 50px;
+  margin: auto;
+ font-size:15px;
+}
+    .button1:link, .button1:visited {
+  background-color:darkred;
+  color: white;
+  padding: 8px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+	display: block;
+  max-width: 50px;
+  margin: auto;
+ font-size:15px;
+    }
+.flip-clock-wrapper {
+  text-align: center;
+  top: 75%;
+  left: 50%;
+  position: relative;
+  width: 40%;
+  margin: 1em;
+}
+ 
+}

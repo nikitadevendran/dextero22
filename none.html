@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+     <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+     <title>DEXTERO'22</title> 
+     <link rel="stylesheet" href="sty.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link type="text/css" rel="stylesheet" href="flipclock.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,600;1,900&display=swap" rel="stylesheet">
+</head> 
+<body> 
+     <section class="header">
+            <div class="nav-links" id="navLinks">
+            
+                <ul>
+                   <li><a href="home.html">Home</a></li>
+                   <li><a href="eve.html">Events</a></li>
+                   <li><a href="cont.html">Contact us</a></li>
+                </ul>
+            </div>
+          </section>
+    <section class="nontechnical">
+    <h2>Non-Technical Events</h2>
+        <button class="nontech">THREESIXTY</button>
+        <div class="panel">
+            <p>A photography competition to capture the moments.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5SJSnctG0wHnvR4c5FF9Pu4UV27FQroS6xJKt_uSYWJvuEw/viewform"class="ts">Register Here!</a>
+        </div>
+        <button class="nontech">SURPRISE EVENT</button>
+        <div class="panel">
+            <p>Expect the unexpected.</p>
+            <a href="https://docs.google.com/forms/d/1_ZKq6v2EQiXDX3_FLWptKgXr8pg9Q9Mffo6Q142WL0k/edit?ts=63580488" class="se">Register Here!</a>
+        </div>
+        
+    <script>
+var acc = document.getElementsByClassName("nontech");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+        </script></section>
+</body> 
+</html>

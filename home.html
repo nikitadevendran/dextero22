@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+     <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+     <title>DEXTERO'22</title> 
+     <link rel="stylesheet" href="sty.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link type="text/css" rel="stylesheet" href="flipclock.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,600;1,900&display=swap" rel="stylesheet">
+</head> 
+<body> 
+     <section class="header">
+         <nav>
+              <video autoplay muted loop plays-inline class="back-video">
+            <source src="bgvid2.mp4"frameborder="0" type="video/mp4">
+            <style>
+                  .back-video{
+    top:0;
+    right: 0;
+    position: absolute;
+    left:0;
+
+    height:auto;
+    width:auto;
+    z-index: -1;
+}</style>
+            </video>
+         </nav>
+            <div class="nav-links" id="navLinks">
+            
+                <ul>
+                   <li><a href="home.html">Home</a></li>
+                   <li><a href="eve.html">Events</a></li>
+                   <li><a href="cont.html">Contact us</a></li>
+                </ul>
+            </div>
+         <div class="text-box">
+	      <h3>R.M.D ENGINEERING COLLEGE</h3>
+         <p>(An Autonomous Institution)</p>
+              <h2>Department of Computer Science and Business Systems</h2>
+	           <h4>proudly presents</h4>
+               <h1>D E X T E R O ' 22</h1>
+              <h5>Join forces with us to unleash your talents on the 14th of November!</h5>
+	     </div>
+    </section>
+<div class="clock-builder-output"></div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="flipclock.js"></script>
+<style text="text/css" src="flipclock.css"></script> >body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC; background-color: #333333; } body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434; } body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434; }</style>
+<script type="text/javascript">
+$(function(){
+	FlipClock.Lang.Custom = { days:'Days', hours:'Hours', minutes:'Minutes', seconds:'Seconds' };
+	var opts = {
+		clockFace: 'DailyCounter',
+		countdown: true,
+		language: 'Custom'
+	};  
+	var countdown = 1668364200 - ((new Date().getTime())/1000); // from: 11/14/2022 12:00 am +0530
+	countdown = Math.max(1, countdown);
+	$('.clock-builder-output').FlipClock(countdown, opts);
+});
+</script>
+
+	<div class="footer">
+		<br><br><a href="https://www.facebook.com/profile.php?id=100086978926772" class="button1">Follow us on Facebook!</a><br>
+
+		<a href="https://www.instagram.com/dextero.22/" class="button2">Follow us on Instagram! </a>
+              <style>
+.button1:link, .button1:visited {
+  background-color:darkred;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.button1:hover, .button1:active{
+  background-color: darkblue;
+     
+  box-shadow: 0 0 30px 0px gold;
+}
+.button2:link, .button2:visited {
+  background-color:darkred;
+  color: white;
+  padding: 15px 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+	display: block;
+  max-width: 300px;
+  margin: auto;
+  
+}
+
+.button2:hover, .button2:active{
+  background-color: darkblue;
+     box-shadow: 0 0 30px 0px gold;
+}        
+		</style>		      
+	</div>	      
+</body> 
+</html>
