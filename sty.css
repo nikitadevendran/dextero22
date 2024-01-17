@@ -670,6 +670,19 @@ margin-right: 35%;
   display: inline-block;
   text-decoration: none;
 }
+	.mb{
+  background-color: darkseagreen;
+  color: darkgreen;
+  padding-left:10px;
+  padding-right:10px;
+  padding: 5px 5px;
+  font-size:13px;
+  text-align: center;
+ border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
 	.bw{
   background-color: darkseagreen;
   color: darkgreen;
